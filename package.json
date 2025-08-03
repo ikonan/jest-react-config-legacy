@@ -1,0 +1,55 @@
+{
+  "name": "@iiko/jest-react-config-legacy",
+  "version": "0.0.1",
+  "description": "jest + react17.x 简单封装",
+  "main": "dist/lib/index.js",
+  "module": "dist/esm/index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./types": "./types.d.ts"
+  },
+  "files": [
+    "dist",
+    "types.d.ts",
+    "README.md"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ikonan/jest-react-config-legacy"
+  },
+  "scripts": {
+    "build": "rimraf dist &&  tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jest",
+    "react17",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@babel/preset-react": "^7.27.1",
+    "@testing-library/jest-dom": "5.x",
+    "@testing-library/react": "11.x",
+    "@testing-library/user-event": "13.x",
+    "@types/jest": "27.x",
+    "jest": "27.x",
+    "jest-environment-jsdom": "27.x",
+    "jest-transform-stub": "2.x",
+    "lodash": "^4.17.21",
+    "ts-jest": "27.x"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.20",
+    "@types/node": "^24.1.0",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.9.2"
+  }
+}
