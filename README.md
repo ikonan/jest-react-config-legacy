@@ -1,11 +1,11 @@
-# @iiko/jest-config-legacy
+# @iiko/jest-react-config-legacy
 
 jest + react17.x 简单封装
 
 ## 安装
 
 ```
-npm install --save-dev @iiko/jest-config-legacy
+npm install --save-dev @iiko/jest-react-config-legacy
 ```
 
 ## jest.config.js 配置
@@ -17,7 +17,7 @@ const { compilerOptions } = require("./tsconfig.json");
 const {
   default: defineConfig,
   pathsToModuleNameMapper,
-} = require("@iiko/jest-config-legacy");
+} = require("@iiko/jest-react-config-legacy");
 
 module.exports = defineConfig({
   // 从正则表达式到模块名称或模块名称数组的映射，允许用单个模块存根替换资源
@@ -36,7 +36,7 @@ module.exports = defineConfig({
 ```json
 {
   "compilerOptions": {
-    "types": ["@iiko/jest-config-legacy/types"]
+    "types": ["@iiko/jest-react-config-legacy/types"]
   }
 }
 ```
