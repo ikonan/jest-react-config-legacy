@@ -44,11 +44,9 @@
     "jest": "27.x",
     "jest-environment-jsdom": "27.x",
     "jest-transform-stub": "2.x",
-    "lodash": "^4.17.21",
     "ts-jest": "27.x"
   },
   "devDependencies": {
-    "@types/lodash": "^4.17.20",
     "@types/node": "^24.1.0",
     "rimraf": "^6.0.1",
     "typescript": "^5.9.2"
