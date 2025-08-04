@@ -1,6 +1,6 @@
 {
   "name": "@iiko/jest-react-config-legacy",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "jest + react17.x 简单封装",
   "main": "dist/lib/index.js",
   "module": "dist/esm/index.js",
