@@ -40,3 +40,15 @@ module.exports = defineConfig({
   }
 }
 ```
+
+## umi3.x 问题
+
+umi3.x 用的 jest@26.x, 我们用的 jest@27.x, 执行 `npx jest` 默认会找 jest@26.x
+
+package.json 强制使用 jest@27.x
+
+```json
+ "resolutions": {
+    "@jest/core": "27.5.1"
+  },
+```
